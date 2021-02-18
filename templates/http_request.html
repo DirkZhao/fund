@@ -1,0 +1,7 @@
+<form method="post">
+    {{ form.csrf_token }}
+    {{ form.http_path.label }}{{ form.http_path }}<br>
+    {{ form.http_param.label }}{{ form.http_param }}<br>
+
+    {{ form.submit }}<br>
+</form>
